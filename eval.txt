@@ -1,0 +1,8 @@
+My eval function is that the computer will decide based on the no of sum of marbles at the utility node being even or odd.
+If the player at last node would be maximing than it would returning the same value as normal minmax if the sum of marbles will be
+even and negative in the case of number being odd.
+This same fucntionality will be happening in the min player at the last node but the only change would be that in case of sum being 
+even it would return the value with a negation to it.
+The logic behind this eval function is that the computer would come to know about the game chances based on the eval value which gets 
+returned as negative and positive where if positive is returned for a min player meaning the human will be winning and vice vera.
+And the case for maximing player happens the same way except that for maximing player positive value means win for computer.
